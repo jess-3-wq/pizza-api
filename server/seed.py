@@ -6,12 +6,12 @@ from server.models.restaurant_pizza import RestaurantPizza
 app = create_app()
 
 with app.app_context():
-    # Clear old data
+    
     Restaurant.query.delete()
     Pizza.query.delete()
     RestaurantPizza.query.delete()
 
-    # Create new data
+
     r1 = Restaurant(name="Pizza Planet", address="123 Space St.")
     r2 = Restaurant(name="Mama Mia's", address="456 Pasta Ave")
 
