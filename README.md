@@ -33,7 +33,7 @@ SHOULD BRING =>"Database seeded!"
 4️.Run the server
 Copy code
 flask --app server.app run
-# Server running on http://127.0.0.1:5000/
+ Server running on http://127.0.0.1:5000/
  API Endpoints
  Restaurants
 Method	Endpoint	Description
